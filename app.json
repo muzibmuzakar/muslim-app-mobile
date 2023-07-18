@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "muslim-app",
+    "name": "Muslim App",
     "slug": "muslim-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo-dark-01.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo-dark-01.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#181829"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo-dark-01.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.muzibmuzakar.muslimapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "34f740c6-bf2c-4beb-8147-8b61de191695"
+      }
+    },
+    "owner": "muzibmuzakar"
   }
 }
